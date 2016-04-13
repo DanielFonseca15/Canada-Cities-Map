@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialog_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Enter your text here"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/dialog_info">
+
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tf_location1"
+            android:hint="Write a Canadian City"
+            android:textSize="15dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:text="Search"
+            android:textSize="13dp"
+            android:id="@+id/dialog_search"
+            android:layout_gravity="right"
+            android:onClick="onSearch" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
