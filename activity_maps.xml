@@ -1,0 +1,293 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:id="@+id/linearlayout">
+
+
+<HorizontalScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/horizontalScrollView2">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Ottawa"
+            android:id="@+id/btottawa"
+            android:onClick="ottawa"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Toronto"
+            android:id="@+id/bttoronto"
+            android:onClick="toronto"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Vancouver"
+            android:id="@+id/btvancouver"
+            android:onClick="vancouver"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Winnipeg"
+            android:id="@+id/btwinnipeg"
+            android:onClick="winnipeg"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Victória"
+            android:id="@+id/btvictoria"
+            android:onClick="victoria"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Québec City"
+            android:id="@+id/btquebec"
+            android:onClick="quebec"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Montreal"
+            android:id="@+id/btmontreal"
+            android:onClick="montreal"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Calgary"
+            android:id="@+id/btcalgary"
+            android:onClick="calgary"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Niagara Falls"
+            android:onClick="niagara"
+            android:id="@+id/btniagara"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Regina"
+            android:id="@+id/btregina"
+            android:onClick="regina"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Edmonton"
+            android:id="@+id/btEdmonton"
+            android:onClick="edmonton"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Saskatoon"
+            android:id="@+id/btsaskatoon"
+            android:onClick="saskatoon"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Saint John"
+            android:id="@+id/btsaintjohn"
+            android:onClick="saintjohn"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Halifax"
+            android:id="@+id/bthalifax"
+            android:onClick="halifax"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Whitehorse"
+            android:id="@+id/btwhitehorse"
+            android:onClick="whitehorse"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Yellowknife"
+            android:id="@+id/btyellowknife"
+            android:onClick="yellowknife"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Thunder Bay"
+            android:id="@+id/btthunderbay"
+            android:onClick="thunderbay"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Windsor"
+            android:id="@+id/btwindsor"
+            android:onClick="windsor"
+            android:textSize="12dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+
+</HorizontalScrollView>
+
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/Linearfrag">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/map"
+        android:layout_gravity="top"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:layout="@layout/abc_action_menu_layout">
+
+        <RelativeLayout
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:background="#fcfffa"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="right|top"
+            android:alpha="0.7">
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_satelite"
+                android:id="@+id/change"
+                android:onClick="changeType"
+                android:layout_gravity="right|top"
+                android:alpha="0.9"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="8dp"
+            android:background="#3e5981"
+            android:alpha="0.80"
+            android:layout_gravity="left|top">
+            <EditText
+                style="@android:style/Animation.Translucent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/tf_location"
+                android:hint="Enter a Canadian City here"
+                android:textSize="15dp"
+                android:textColor="#010101"
+                android:textColorHint="#898c87"
+                android:background="#fcfffa"
+                android:layout_toLeftOf="@+id/search"
+                android:layout_toStartOf="@+id/search" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:id="@+id/search"
+                android:onClick="onSearch"
+                android:background="@drawable/button_search"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left|bottom">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+
+        </com.google.android.gms.ads.AdView>
+        </RelativeLayout>
+
+
+    </fragment>
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
